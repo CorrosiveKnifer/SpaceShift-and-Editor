@@ -1,0 +1,6 @@
+1. Download the level editor .zip from itch.io
+​2. Create a new level .ini.
+3. Include at least one portal and one spawn.
+​4. Save the new level inside the 'assets/levels/' folder.
+5. Edit the levels.ini to include the newly created level.
+​6. Play the game, where your level should be displayed inside the select list.

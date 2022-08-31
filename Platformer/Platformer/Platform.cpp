@@ -76,6 +76,7 @@ bool Platform::Initialise(sf::IntRect _info)
 	m_render = new sf::RectangleShape(sf::Vector2f(static_cast<float>(_info.width), static_cast<float>(_info.height)));
 	this->m_position = sf::Vector2f(static_cast<float>(_info.left), static_cast<float>(_info.top));
 	m_render->setFillColor(sf::Color::White);
+	
 	return Entity::Initialise(m_render);
 }
 
